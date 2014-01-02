@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A171A0E1874D7D400CF8D08 /* MagicWallpaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A171A0D1874D7D400CF8D08 /* MagicWallpaper.m */; };
+		3A171A101874D95000CF8D08 /* SpringBoardFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A171A0F1874D95000CF8D08 /* SpringBoardFoundation.framework */; };
+		3A171A111874D95700CF8D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1719D51874D75800CF8D08 /* Foundation.framework */; };
+		3A171A131874D95A00CF8D08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A171A121874D95A00CF8D08 /* UIKit.framework */; };
+		3A171A1F18758E8600CF8D08 /* magic-wallpaper1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A171A1D18758E8600CF8D08 /* magic-wallpaper1@2x.png */; };
+		3A171A2018758E8600CF8D08 /* magic-wallpaper2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A171A1E18758E8600CF8D08 /* magic-wallpaper2@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A1719D51874D75800CF8D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A1719E31874D75800CF8D08 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3A1719E61874D75800CF8D08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3A1719FF1874D77800CF8D08 /* MagicWallpaper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicWallpaper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A171A001874D77800CF8D08 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3A171A041874D77800CF8D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A171A081874D77800CF8D08 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		3A171A0C1874D7D400CF8D08 /* MagicWallpaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicWallpaper.h; sourceTree = "<group>"; };
+		3A171A0D1874D7D400CF8D08 /* MagicWallpaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicWallpaper.m; sourceTree = "<group>"; };
+		3A171A0F1874D95000CF8D08 /* SpringBoardFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpringBoardFoundation.framework; path = System/Library/PrivateFrameworks/SpringBoardFoundation.framework; sourceTree = SDKROOT; };
+		3A171A121874D95A00CF8D08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A171A161874DC1D00CF8D08 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		3A171A1B1874DE9900CF8D08 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		3A171A1D18758E8600CF8D08 /* magic-wallpaper1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic-wallpaper1@2x.png"; sourceTree = "<group>"; };
+		3A171A1E18758E8600CF8D08 /* magic-wallpaper2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic-wallpaper2@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A1719FC1874D77800CF8D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A171A131874D95A00CF8D08 /* UIKit.framework in Frameworks */,
+				3A171A111874D95700CF8D08 /* Foundation.framework in Frameworks */,
+				3A171A101874D95000CF8D08 /* SpringBoardFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1719C91874D75800CF8D08 = {
+			isa = PBXGroup;
+			children = (
+				3A171A021874D77800CF8D08 /* MagicWallpaper */,
+				3A1719D41874D75800CF8D08 /* Frameworks */,
+				3A1719D31874D75800CF8D08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A1719D31874D75800CF8D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A1719FF1874D77800CF8D08 /* MagicWallpaper.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A1719D41874D75800CF8D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A171A1B1874DE9900CF8D08 /* CoreMotion.framework */,
+				3A171A161874DC1D00CF8D08 /* SpriteKit.framework */,
+				3A171A121874D95A00CF8D08 /* UIKit.framework */,
+				3A171A0F1874D95000CF8D08 /* SpringBoardFoundation.framework */,
+				3A1719D51874D75800CF8D08 /* Foundation.framework */,
+				3A1719E31874D75800CF8D08 /* XCTest.framework */,
+				3A1719E61874D75800CF8D08 /* UIKit.framework */,
+				3A171A001874D77800CF8D08 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A171A021874D77800CF8D08 /* MagicWallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				3A171A0C1874D7D400CF8D08 /* MagicWallpaper.h */,
+				3A171A0D1874D7D400CF8D08 /* MagicWallpaper.m */,
+				3A171A031874D77800CF8D08 /* Supporting Files */,
+			);
+			path = MagicWallpaper;
+			sourceTree = "<group>";
+		};
+		3A171A031874D77800CF8D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A171A041874D77800CF8D08 /* Info.plist */,
+				3A171A081874D77800CF8D08 /* Prefix.pch */,
+				3A171A1D18758E8600CF8D08 /* magic-wallpaper1@2x.png */,
+				3A171A1E18758E8600CF8D08 /* magic-wallpaper2@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A1719FE1874D77800CF8D08 /* MagicWallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A171A091874D77800CF8D08 /* Build configuration list for PBXNativeTarget "MagicWallpaper" */;
+			buildPhases = (
+				3A1719FB1874D77800CF8D08 /* Sources */,
+				3A1719FC1874D77800CF8D08 /* Frameworks */,
+				3A1719FD1874D77800CF8D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicWallpaper;
+			productName = MagicWallpaper;
+			productReference = 3A1719FF1874D77800CF8D08 /* MagicWallpaper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A1719CA1874D75800CF8D08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Anton;
+			};
+			buildConfigurationList = 3A1719CD1874D75800CF8D08 /* Build configuration list for PBXProject "ProceduralWallpaper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A1719C91874D75800CF8D08;
+			productRefGroup = 3A1719D31874D75800CF8D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A1719FE1874D77800CF8D08 /* MagicWallpaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A1719FD1874D77800CF8D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A171A2018758E8600CF8D08 /* magic-wallpaper2@2x.png in Resources */,
+				3A171A1F18758E8600CF8D08 /* magic-wallpaper1@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A1719FB1874D77800CF8D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A171A0E1874D7D400CF8D08 /* MagicWallpaper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A1719F31874D75800CF8D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A1719F41874D75800CF8D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A171A0A1874D77800CF8D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MagicWallpaper/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = MagicWallpaper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3A171A0B1874D77800CF8D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MagicWallpaper/Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = MagicWallpaper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A1719CD1874D75800CF8D08 /* Build configuration list for PBXProject "ProceduralWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1719F31874D75800CF8D08 /* Debug */,
+				3A1719F41874D75800CF8D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A171A091874D77800CF8D08 /* Build configuration list for PBXNativeTarget "MagicWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A171A0A1874D77800CF8D08 /* Debug */,
+				3A171A0B1874D77800CF8D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A1719CA1874D75800CF8D08 /* Project object */;
+}
