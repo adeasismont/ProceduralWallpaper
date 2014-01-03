@@ -1,6 +1,6 @@
-#import <Foundation/Foundation.h>
-#import <SpringBoardFoundation/SBFProceduralWallpaper.h>
+#import <UIKit/UIKit.h>
+#import "SBFProceduralWallpaper.h"
 
-@interface MagicWallpaper : SBFProceduralWallpaper
+@interface MagicWallpaper : UIView <SBFProceduralWallpaper>
 
 @end

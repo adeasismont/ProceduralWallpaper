@@ -31,6 +31,7 @@
 		3A171A1B1874DE9900CF8D08 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		3A171A1D18758E8600CF8D08 /* magic-wallpaper1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic-wallpaper1@2x.png"; sourceTree = "<group>"; };
 		3A171A1E18758E8600CF8D08 /* magic-wallpaper2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic-wallpaper2@2x.png"; sourceTree = "<group>"; };
+		3A97A3E9187774CA00789C25 /* SBFProceduralWallpaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBFProceduralWallpaper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		3A171A021874D77800CF8D08 /* MagicWallpaper */ = {
 			isa = PBXGroup;
 			children = (
+				3A97A3E9187774CA00789C25 /* SBFProceduralWallpaper.h */,
 				3A171A0C1874D7D400CF8D08 /* MagicWallpaper.h */,
 				3A171A0D1874D7D400CF8D08 /* MagicWallpaper.m */,
 				3A171A031874D77800CF8D08 /* Supporting Files */,
@@ -304,6 +306,7 @@
 				3A171A0B1874D77800CF8D08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

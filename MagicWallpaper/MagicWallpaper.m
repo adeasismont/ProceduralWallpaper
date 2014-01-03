@@ -44,6 +44,11 @@
 {
 }
 
+- (UIView *)view
+{
+    return self;
+}
+
 
 #pragma mark - Wallpaper implementation
 
