@@ -27,6 +27,6 @@ All classes available in a bundle are specified in an array with the key `SBProc
 Compiling and installing
 ------------------------
 
-You need to have the header files for SpringBoardFoundation.framework and a jailbroken iPhone to build and install this wallpaper. The bundle should be copied to /System/Library/ProceduralWallpapers.
+You need to have a jailbroken iPhone to install and run this wallpaper. The bundle should be copied to /System/Library/ProceduralWallpapers and can then be selected from the wallpaper settings sections in Settings.app. Changes require SpringBoard to be restarted using `killall SpringBoard`.
 
 ![Screenshot](screenshot.png)
