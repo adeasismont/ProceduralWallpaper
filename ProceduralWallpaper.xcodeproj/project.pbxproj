@@ -13,6 +13,7 @@
 		3A171A131874D95A00CF8D08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A171A121874D95A00CF8D08 /* UIKit.framework */; };
 		3A171A1F18758E8600CF8D08 /* magic-wallpaper1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A171A1D18758E8600CF8D08 /* magic-wallpaper1@2x.png */; };
 		3A171A2018758E8600CF8D08 /* magic-wallpaper2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A171A1E18758E8600CF8D08 /* magic-wallpaper2@2x.png */; };
+		3A97A3ED1879B36F00789C25 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A97A3EC1879B36F00789C25 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3A171A1D18758E8600CF8D08 /* magic-wallpaper1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic-wallpaper1@2x.png"; sourceTree = "<group>"; };
 		3A171A1E18758E8600CF8D08 /* magic-wallpaper2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic-wallpaper2@2x.png"; sourceTree = "<group>"; };
 		3A97A3E9187774CA00789C25 /* SBFProceduralWallpaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBFProceduralWallpaper.h; sourceTree = "<group>"; };
+		3A97A3EC1879B36F00789C25 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				3A171A081874D77800CF8D08 /* Prefix.pch */,
 				3A171A1D18758E8600CF8D08 /* magic-wallpaper1@2x.png */,
 				3A171A1E18758E8600CF8D08 /* magic-wallpaper2@2x.png */,
+				3A97A3EC1879B36F00789C25 /* spark.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A171A2018758E8600CF8D08 /* magic-wallpaper2@2x.png in Resources */,
+				3A97A3ED1879B36F00789C25 /* spark.png in Resources */,
 				3A171A1F18758E8600CF8D08 /* magic-wallpaper1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
