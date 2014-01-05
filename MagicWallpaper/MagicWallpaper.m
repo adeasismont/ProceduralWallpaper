@@ -28,15 +28,12 @@
     return @[
              @{ @"kSBUIMagicWallpaperThumbnailNameKey": @"magic-wallpaper1",
                 @"info": @"1" },
-             @{ @"kSBUIMagicWallpaperThumbnailNameKey": @"magic-wallpaper2",
-                @"info": @"2" }
              ];
 }
 
 - (void)setWallpaperOptions:(NSDictionary *)options
 {
     // Setup the wallpaper based on the options (returned from -presetWallpaperOptions) here.
-    // Both variants are the same for this sample wallpaper.
 }
 
 - (void)setWallpaperVariant:(int)variant

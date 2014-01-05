@@ -1,6 +1,16 @@
 ProceduralWallpaper
 ===================
 
+Procedural wallpapers are the dynamic, animated wallpapers for iOS 7.
+This sample code contains two different wallpapers. One that displays fireworks, and the other the output from the camera (with an optional, automatic QR-reader).
+
+![Fireworks](screenshot1.png)
+![Camera](screenshot2.png)
+
+
+Development
+-----------
+
 A procedural wallpaper on iOS 7 consists of an instance conforming to the SBFProceduralWallpaper protocol, and a UIView to be presented on screen (they can be the same).
 
 The required methods are:
@@ -28,5 +38,3 @@ Compiling and installing
 ------------------------
 
 You need to have a jailbroken iPhone to install and run this wallpaper. The bundle should be copied to /System/Library/ProceduralWallpapers and can then be selected from the wallpaper settings sections in Settings.app. Changes require SpringBoard to be restarted using `killall SpringBoard`.
-
-![Screenshot](screenshot.png)

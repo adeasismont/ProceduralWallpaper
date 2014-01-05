@@ -12,8 +12,11 @@
 		3A171A111874D95700CF8D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1719D51874D75800CF8D08 /* Foundation.framework */; };
 		3A171A131874D95A00CF8D08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A171A121874D95A00CF8D08 /* UIKit.framework */; };
 		3A171A1F18758E8600CF8D08 /* magic-wallpaper1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A171A1D18758E8600CF8D08 /* magic-wallpaper1@2x.png */; };
-		3A171A2018758E8600CF8D08 /* magic-wallpaper2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A171A1E18758E8600CF8D08 /* magic-wallpaper2@2x.png */; };
 		3A97A3ED1879B36F00789C25 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A97A3EC1879B36F00789C25 /* spark.png */; };
+		3A97A3F11879E97200789C25 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A97A3F01879E97200789C25 /* AVFoundation.framework */; };
+		3A97A3F41879E98000789C25 /* CameraWallpaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A97A3F31879E98000789C25 /* CameraWallpaper.m */; };
+		3A97A3F71879EAD000789C25 /* camera-wallpaper1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A97A3F51879EAD000789C25 /* camera-wallpaper1@2x.png */; };
+		3A97A3F81879EAD000789C25 /* camera-wallpaper2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A97A3F61879EAD000789C25 /* camera-wallpaper2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +34,13 @@
 		3A171A161874DC1D00CF8D08 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		3A171A1B1874DE9900CF8D08 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		3A171A1D18758E8600CF8D08 /* magic-wallpaper1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic-wallpaper1@2x.png"; sourceTree = "<group>"; };
-		3A171A1E18758E8600CF8D08 /* magic-wallpaper2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic-wallpaper2@2x.png"; sourceTree = "<group>"; };
 		3A97A3E9187774CA00789C25 /* SBFProceduralWallpaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBFProceduralWallpaper.h; sourceTree = "<group>"; };
 		3A97A3EC1879B36F00789C25 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		3A97A3F01879E97200789C25 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3A97A3F21879E98000789C25 /* CameraWallpaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraWallpaper.h; sourceTree = "<group>"; };
+		3A97A3F31879E98000789C25 /* CameraWallpaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraWallpaper.m; sourceTree = "<group>"; };
+		3A97A3F51879EAD000789C25 /* camera-wallpaper1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-wallpaper1@2x.png"; sourceTree = "<group>"; };
+		3A97A3F61879EAD000789C25 /* camera-wallpaper2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-wallpaper2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A97A3F11879E97200789C25 /* AVFoundation.framework in Frameworks */,
 				3A171A131874D95A00CF8D08 /* UIKit.framework in Frameworks */,
 				3A171A111874D95700CF8D08 /* Foundation.framework in Frameworks */,
 				3A171A101874D95000CF8D08 /* SpringBoardFoundation.framework in Frameworks */,
@@ -70,6 +78,7 @@
 		3A1719D41874D75800CF8D08 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A97A3F01879E97200789C25 /* AVFoundation.framework */,
 				3A171A1B1874DE9900CF8D08 /* CoreMotion.framework */,
 				3A171A161874DC1D00CF8D08 /* SpriteKit.framework */,
 				3A171A121874D95A00CF8D08 /* UIKit.framework */,
@@ -88,6 +97,8 @@
 				3A97A3E9187774CA00789C25 /* SBFProceduralWallpaper.h */,
 				3A171A0C1874D7D400CF8D08 /* MagicWallpaper.h */,
 				3A171A0D1874D7D400CF8D08 /* MagicWallpaper.m */,
+				3A97A3F21879E98000789C25 /* CameraWallpaper.h */,
+				3A97A3F31879E98000789C25 /* CameraWallpaper.m */,
 				3A171A031874D77800CF8D08 /* Supporting Files */,
 			);
 			path = MagicWallpaper;
@@ -99,8 +110,9 @@
 				3A171A041874D77800CF8D08 /* Info.plist */,
 				3A171A081874D77800CF8D08 /* Prefix.pch */,
 				3A171A1D18758E8600CF8D08 /* magic-wallpaper1@2x.png */,
-				3A171A1E18758E8600CF8D08 /* magic-wallpaper2@2x.png */,
 				3A97A3EC1879B36F00789C25 /* spark.png */,
+				3A97A3F51879EAD000789C25 /* camera-wallpaper1@2x.png */,
+				3A97A3F61879EAD000789C25 /* camera-wallpaper2@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,9 +168,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A171A2018758E8600CF8D08 /* magic-wallpaper2@2x.png in Resources */,
+				3A97A3F71879EAD000789C25 /* camera-wallpaper1@2x.png in Resources */,
 				3A97A3ED1879B36F00789C25 /* spark.png in Resources */,
 				3A171A1F18758E8600CF8D08 /* magic-wallpaper1@2x.png in Resources */,
+				3A97A3F81879EAD000789C25 /* camera-wallpaper2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A171A0E1874D7D400CF8D08 /* MagicWallpaper.m in Sources */,
+				3A97A3F41879E98000789C25 /* CameraWallpaper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
